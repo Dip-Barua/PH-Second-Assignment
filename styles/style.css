@@ -433,8 +433,8 @@ header {
 }
 
 .image_library>.grid_1 {
-    /* background: url(/img/exercise1.jpg); */
-    background-image: linear-gradient(rgb(0 253 255 / 30%), rgb(0 253 255 / 30%)), url(/img/exercise1.jpg);
+    /* background: url(../img/exercise1.jpg); */
+    background-image: linear-gradient(rgb(0 253 255 / 30%), rgb(0 253 255 / 30%)), url(../img/exercise1.jpg);
     grid-column: 1/5;
     grid-row: 1/2;
     background-size: cover;
@@ -442,7 +442,7 @@ header {
 }
 
 .image_library>.grid_2 {
-    background-image: linear-gradient(rgb(255 0 0 / 31%), rgb(255 0 0 / 30%)), url(/img/exercise2.png);
+    background-image: linear-gradient(rgb(255 0 0 / 31%), rgb(255 0 0 / 30%)), url(../img/exercise2.png);
     grid-column: 5/13;
     grid-row: 1/2;
     background-size: cover;
@@ -451,7 +451,7 @@ header {
 }
 
 .image_library>.grid_3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/exercise3.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/exercise3.png');
     grid-column: 13/-1;
     grid-row: 1/2;
     background-size: cover;
@@ -460,7 +460,7 @@ header {
 }
 
 .image_library>.grid_4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/exercise4.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/exercise4.png');
     grid-column: 1/7;
     grid-row: 2/3;
     background-size: cover;
@@ -469,7 +469,7 @@ header {
 }
 
 .image_library>.grid_5 {
-    background-image: linear-gradient(rgb(3 255 0 / 30%), rgb(49 255 0 / 30%)), url(/img/exercise5.jpg);
+    background-image: linear-gradient(rgb(3 255 0 / 30%), rgb(49 255 0 / 30%)), url(../img/exercise5.jpg);
     grid-column: 7/12;
     grid-row: 2/3;
     background-size: cover;
@@ -478,7 +478,7 @@ header {
 }
 
 .image_library>.grid_6 {
-    background-image: linear-gradient(rgb(129 0 255 / 30%), rgb(79 0 160 / 30%)), url(/img/exercise6.jpg);
+    background-image: linear-gradient(rgb(129 0 255 / 30%), rgb(79 0 160 / 30%)), url(../img/exercise6.jpg);
     grid-column: 12/-1;
     grid-row: 2/3;
     background-size: cover;
@@ -679,7 +679,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer1.png);
+    background: url(../img/trainer1.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -713,7 +713,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer2.png);
+    background: url(../img/trainer2.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -728,7 +728,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer3.png);
+    background: url(../img/trainer3.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -743,7 +743,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer4.png);
+    background: url(../img/trainer4.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -767,7 +767,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer5.png);
+    background: url(../img/trainer5.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -782,7 +782,7 @@ select {
     height: 18rem;
     border-radius: 8px;
     display: flex;
-    background: url(/img/trainer6.png);
+    background: url(../img/trainer6.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1297,7 +1297,7 @@ footer>hr {
     }
 
     .image_library>.grid_1 {
-        background-image: linear-gradient(rgb(0 253 255 / 30%), rgb(0 253 255 / 30%)), url(/img/exercise1.jpg);
+        background-image: linear-gradient(rgb(0 253 255 / 30%), rgb(0 253 255 / 30%)), url(../img/exercise1.jpg);
         grid-column: 1/2;
         grid-row: 1/2;
         background-size: cover;
@@ -1305,7 +1305,7 @@ footer>hr {
     }
 
     .image_library>.grid_2 {
-        background-image: linear-gradient(rgb(255 0 0 / 31%), rgb(255 0 0 / 30%)), url(/img/exercise2.png);
+        background-image: linear-gradient(rgb(255 0 0 / 31%), rgb(255 0 0 / 30%)), url(../img/exercise2.png);
         grid-column: 2/3;
         grid-row: 1/2;
         background-size: cover;
@@ -1315,7 +1315,7 @@ footer>hr {
     }
 
     .image_library>.grid_3 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/exercise3.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/exercise3.png');
         grid-column: 2/-1;
         grid-row: 1/2;
         background-size: cover;
@@ -1324,7 +1324,7 @@ footer>hr {
     }
 
     .image_library>.grid_4 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/exercise4.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/exercise4.png');
         grid-column: 1/7;
         grid-row: 2/3;
         background-size: cover;
@@ -1334,7 +1334,7 @@ footer>hr {
     }
 
     .image_library>.grid_5 {
-        background-image: linear-gradient(rgb(3 255 0 / 30%), rgb(49 255 0 / 30%)), url(/img/exercise5.jpg);
+        background-image: linear-gradient(rgb(3 255 0 / 30%), rgb(49 255 0 / 30%)), url(../img/exercise5.jpg);
         grid-column: 1/2;
         grid-row: 2/3;
         background-size: cover;
@@ -1343,7 +1343,7 @@ footer>hr {
     }
 
     .image_library>.grid_6 {
-        background-image: linear-gradient(rgb(129 0 255 / 30%), rgb(79 0 160 / 30%)), url(/img/exercise6.jpg);
+        background-image: linear-gradient(rgb(129 0 255 / 30%), rgb(79 0 160 / 30%)), url(../img/exercise6.jpg);
         grid-column: 2/-1;
         grid-row: 2/3;
         background-size: cover;
