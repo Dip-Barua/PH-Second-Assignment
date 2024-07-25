@@ -1175,7 +1175,7 @@ footer>hr {
     .hero_img {
         margin: 2rem auto;
         margin-bottom: -8rem;
-        width: fit-content;
+        width: 100%;
     }
 
     br {
@@ -1184,6 +1184,7 @@ footer>hr {
 
     .btn {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
         margin: 5rem auto 0 auto;
