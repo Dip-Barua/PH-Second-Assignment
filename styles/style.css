@@ -670,7 +670,7 @@ select {
   float: left;
   transition: margin-top 0.5s linear;
   position: relative;
-  margin-right: 11px;
+  margin-right: 50px;
 }
 .package:hover {
   margin-top: -30px;
